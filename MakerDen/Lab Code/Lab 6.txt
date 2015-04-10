@@ -13,3 +13,8 @@ In main class call the StartNeoPixel() to kick off a series of colour cycles.
 You can extend or create your own the cycles.
 
 StartNeoPixel();
+
+
+//Dougs comments
+
+            neoPixel = new NeoPixelSPI(Pins.GPIO_PIN_D10, SPI.SPI_module.SPI1);
